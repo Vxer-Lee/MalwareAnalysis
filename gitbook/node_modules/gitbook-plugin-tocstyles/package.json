@@ -1,0 +1,21 @@
+{
+  "name": "gitbook-plugin-tocstyles",
+  "description": "GitBook plugin for custom toc styles",
+  "main": "index.js",
+  "version": "0.0.1",
+  "engines": {
+    "gitbook": "*"
+  },
+  "homepage": "https://github.com/clkao/gitbook-plugin-tocstyles",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clkao/gitbook-plugin-tocstyles.git"
+  },
+  "license": "http://clkao.mit-license.org",
+  "bugs": {
+    "url": "https://github.com/clkao/gitbook-plugin-tocstyles/issues"
+  },
+  "dependencies": {
+    "cheerio": "^0.18.0"
+  }
+}

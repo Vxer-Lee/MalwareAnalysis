@@ -1,0 +1,41 @@
+{
+  "author": "Felix Böhm <me@feedic.com> (http://feedic.com)",
+  "name": "CSSwhat",
+  "description": "a CSS selector parser",
+  "version": "0.4.7",
+  "repository": {
+    "url": "https://github.com/FB55/CSSwhat"
+  },
+  "main": "./index.js",
+  "scripts": {
+    "test": "node tests/test.js && jshint *.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jshint": "2"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "license": "BSD-like",
+  "jshintConfig": {
+    "eqeqeq": true,
+    "freeze": true,
+    "latedef": "nofunc",
+    "noarg": true,
+    "nonbsp": true,
+    "quotmark": "double",
+    "undef": true,
+    "unused": true,
+    "trailing": true,
+    "eqnull": true,
+    "proto": true,
+    "smarttabs": true,
+    "node": true,
+    "globals": {
+      "describe": true,
+      "it": true
+    }
+  }
+}
